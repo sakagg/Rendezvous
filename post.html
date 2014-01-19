@@ -47,7 +47,7 @@
 		dataString = "username=" + username + "&person=" + person;
 		$.ajax({
 			type: "POST",
-			url: "http://localhost/appathon/scripts/return_groups.php",
+			url: "http://192.168.43.175/appathon/scripts/return_groups.php",
 			data: dataString,
 			success: function(data)
 			{
@@ -67,7 +67,7 @@
 			alert(dataString);
 			$.ajax({
 				type: "POST",
-				url: "http://localhost/appathon/scripts/check_post.php",
+				url: "http://192.168.43.175/appathon/scripts/check_post.php",
 				data: dataString,
 				success: function(data)
 				{

@@ -64,7 +64,7 @@
 				dataString = "group_name=" + group_name + "&group_code=" + group_code;
 				$.ajax({
 					type: "POST",
-					url: "http://localhost/appathon/scripts/create_group.php",
+					url: "http://192.168.43.175/appathon/scripts/create_group.php",
 					data: dataString,
 					success: function(data)
 					{
@@ -89,7 +89,7 @@
 				dataString="username=" + username + "&person=" + person + "&group_code=" + group_code;
 				$.ajax({
 					type: "POST",
-					url: "http://localhost/appathon/scripts/join_group.php",
+					url: "http://192.168.43.175/appathon/scripts/join_group.php",
 					data: dataString,
 					success: function(data)
 					{

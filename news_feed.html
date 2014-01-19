@@ -48,7 +48,7 @@
 			dataString = "username=" + username + "&person=" + person;
 			$.ajax({
 				type: "POST",
-				url: "http://localhost/appathon/scripts/return_posts.php",
+				url: "http://192.168.43.175/appathon/scripts/return_posts.php",
 				data: dataString,
 				success: function(data)
 				{
@@ -65,7 +65,7 @@
 			dataString = "id=" + id;
 			$.ajax({
 				type: "POST",
-				url: "http://localhost/appathon/scripts/likes.php",
+				url: "http://192.168.43.175/appathon/scripts/likes.php",
 				data: dataString,
 				success: function(data)
 				{
